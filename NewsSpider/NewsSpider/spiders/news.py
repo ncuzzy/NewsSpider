@@ -77,6 +77,4 @@ class NewsSpider(RedisSpider):
         if(len(raw_content) > 0):
             content = "".join(raw_content)
             item['content'] = content
-            print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
-            print(item['content'])
             yield item
