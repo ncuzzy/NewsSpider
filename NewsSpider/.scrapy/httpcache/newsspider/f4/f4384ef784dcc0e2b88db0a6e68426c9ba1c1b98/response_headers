@@ -1,0 +1,10 @@
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Microsoft-IIS/7.5
+Set-Cookie: ASP.NET_SessionId=yyw44kd55l3vvhqsq0sohxwu; path=/; HttpOnly
+X-Aspnetmvc-Version: 3.0
+X-Aspnet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 18 May 2018 17:18:46 GMT

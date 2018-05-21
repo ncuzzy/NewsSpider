@@ -1,0 +1,12 @@
+Server: ngx_openresty
+Date: Fri, 18 May 2018 17:18:43 GMT
+Content-Type: text/plain; charset=gbk
+Last-Modified: Mon, 27 Mar 2017 09:07:49 GMT
+Accept-Ranges: bytes
+Cache-Control: max-age=300
+Expires: Fri, 18 May 2018 17:19:24 GMT
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Age: 259
+Via: http/1.1 zats-lf-xgo-cache (zats-lf-xgo-1141128779 [cRs f ])
+Z-Cache: Z-NCACHE-shangdi1141128779

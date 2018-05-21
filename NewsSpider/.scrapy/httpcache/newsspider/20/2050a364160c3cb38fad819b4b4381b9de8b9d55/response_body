@@ -1,0 +1,417 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="gb2312">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="Cache-Control" content="max-age=86400"> 
+<title>爱奇艺招聘先过滤掉河南人？公司紧急回应，网友评论亮了</title>
+<meta name="keywords" content="歧视,官微,河南人,地域,河南" />
+<meta name="description" content="5月10日晚间，微博账号“500强校园招聘”曝光了一封爱奇艺的内部邮件。" />
+<base target="_blank">
+<!--[902,1,155638] published at 2018-05-11 10:39:55 from #10 by 孙丹阳 -->  
+<link href="http://www.chinanews.com/css/base.css" rel="stylesheet" type="text/css">
+<link href="http://www.chinanews.com/jingweicss.css" rel="stylesheet" type="text/css">
+<style>
+.xgnews a{width:auto;font-size:18px;color:#303030;display:block; text-decoration:none;background:url(http://www.chinanews.com/upload_pic/2/201511/30/idx/2016/0120/U412P902T2D1F45DT20160120150739.png) no-repeat left 12px;padding-left:12px;line-height:30px;padding-bottom:0px;}
+
+#jw_table td,th{font-size:0.6rem;}
+#jw_table1 td,th{font-size:0.6rem;}
+</style>
+<style>
+.xgnews .titlebox{height:22px;padding:10px 0px 5px;}
+.xgnews ul{padding:0;}
+</style>
+<style>
+.img_tw1 li {
+    border-top: 1px solid #dddddd;
+    clear: both;
+    display: block;
+    height: auto;
+    padding: 10px 16px;
+
+}
+.img_tw1 a{
+	background: url(http://www.chinanews.com/upload_pic/2/201511/30/idx/2016/0120/U412P902T2D1F45DT20160120150739.png) no-repeat scroll left 12px;
+    color: #303030;
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 30px;
+    padding-bottom: 0;
+    padding-left: 12px;
+    text-decoration: none;
+    width: auto;
+	}
+ul,li{padding:0;margin:0;}
+.img_tw li {
+    border-top: 1px solid #dddddd;
+    clear: both;
+    display: block;
+    height: 63px;
+    padding: 10px 0;
+	width:100%;
+}
+.img_tw {
+    padding: 0;
+}
+.img_tw li img {
+    float: left;
+    height: 63px;
+    width:97px;
+}
+.img_tw {
+    font-size: 18px;
+    font-weight: bold;
+}
+.img_tw li div {
+    float: left;
+    height: 63px;
+    line-height: 20px;
+    overflow: hidden;
+    padding-left: 10px;
+    width: 63%;
+}
+.img_tw li div p {
+    display: block;
+    height: 63px;
+	margin:0;
+}
+.img_tw li i {
+    clear: both;
+    color: #1b1b1b;
+    display: block;
+    font-size: 16px;
+    height: 44px;
+    line-height: 22px;
+    overflow: hidden;
+	font-style:normal;
+	font-weight:normal;
+}
+.img_tw li span {
+    clear: both;
+    color: #c5c6c7;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.3;
+    padding-top: 5px;
+}
+.img_tw li i img {
+    float: none;
+    vertical-align: middle;
+}
+.img_tw li i a{ background: none; color: #454647;
+    display: block;
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 0;
+    padding-left: 0px;
+    text-decoration: none;
+    width: 100%; cursor:pointer}
+	.img_tw li i a:hover{color:#a9a9a9}
+
+ </style>
+<style>
+article p {
+    font-size: 18px;
+
+}
+</style>
+<script src="http://www.chinanews.com/js/jquery1.4.js"></script>
+<script>
+function addImg(Img,isrc){
+	Img.onload = function (){};
+	Img.src=isrc;
+}
+
+$(function(){
+
+	 $("#article").find("img").each(function(index){
+     var imgsrc = $(this).attr('src');
+
+	 var newa = document.createElement("a");
+ if(imgsrc.indexOf("gif")){
+
+	   newa.setAttribute('href',imgsrc+"#bodybox");
+
+         }else{
+              newa.setAttribute('href',imgsrc);
+	  //newa.innerHTML = "<a href='"+imgsrc+"'> </a>";
+          }
+
+	 $(this).wrap(newa);
+	 console.log(imgsrc);
+
+ });
+
+	 $("#closelayer").click(function(){
+		$("#menu").hide("slow");
+
+	 })
+	})
+
+		$(document).ready(function() {
+
+if(window.location.href.indexOf('f=zxjwapp')>=0){
+	$(".xgnews").hide();
+
+};
+
+	});
+ </script>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+</head>
+<body style="position:relative;height:100%;" id="bodybox">
+    <!--此处可以改背景色,背景图片,logo图片-->
+<div id="TouTiaoBar" style="background:#fff;display:none;"> 
+    	<a href="http://m.chinanews.com/?tt_from=toutiao" id="logo" class="logo">
+
+        </a>
+    </div>
+
+    <!--header 部分样式必须严格遵守-->
+    <header>
+      <h1>爱奇艺招聘先过滤掉河南人？公司紧急回应，网友评论亮了</h1>
+      <div class="subtitle">
+        <time><em>2018-05-11 09:03:22 </em> <p>中新经纬  </p><div class="clear"></div></time>
+      </div>
+</header>
+
+    <!--article标签必须有, 内容自己填, 不允许有超出屏幕范围的东西-->
+
+    <article>
+
+	  <div id="article">
+
+<p>　　中新经纬客户端5月11日电 5月10日晚间，微博账号“500强校园招聘”曝光了一封爱奇艺的内部邮件。邮件显示，爱奇艺员工在面试中称“今后河南人尽量先过滤掉”。</p>
+
+<p>　　<strong>爱奇艺内部邮件现地域歧视</strong></p>
+
+<p>　　5月9日，爱奇艺某员工在回复“面试邀约”的邮件中公然地域歧视，邮件显示，该员工在面试一位在校学生后，备注称“今后河南人尽量先过滤掉”。</p>
+
+<div style="text-align:center"><img src="http://i2.chinanews.com/simg/cmshd/2018/05/11/08029691dd8f426ea3c30246a7f22946.jpg" style="border:px solid #000000" /></div>
+
+<div class="pictext" style="text-align: left; text-indent: 2em;"></div>
+
+<div style="text-align:center">
+
+<div style="text-align:center"><img src="http://i2.chinanews.com/simg/cmshd/2018/05/11/6873e7928e68406dbe7f56e4bd08f69d.jpg" style="border:px solid #000000" /></div>
+
+<div class="pictext" style="text-align: left; text-indent: 2em;"></div>
+<span style="font-size: 20px; color: #888888;">微博截图</span></div>
+
+<div class="pictext" style="text-align: left; text-indent: 2em;"></div>
+
+<p>　　经微博大V曝光后，该事件引发热烈讨论。爱奇艺招聘官方微博“爱奇艺伯乐”在曝光的微博下紧急留言称，爱奇艺已经启动内部排查，一经查证，必定严肃处理。爱奇艺坚决反对任何形式的地域歧视，招聘歧视，绝不给任何地域歧视留容身之地。</p>
+
+<div style="text-align:center"><img src="http://i2.chinanews.com/simg/cmshd/2018/05/11/12ed563268b64093a06097195df00235.jpg" style="border:px solid #000000" /></div>
+
+<p style="text-align: center;"><span style="font-size: 20px; color: #888888;">爱奇艺回应截图</span></p>
+
+<div class="pictext" style="text-align: left; text-indent: 2em;"></div>
+
+<p>　　然而网友对这一回应似乎并不买账。很多网友纷纷评论，“爱奇艺不会再用了”，“该换平台了”。也有愤怒的河南人对爱奇艺的歧视行为进行谴责。</p>
+
+<div style="text-align:center"><img src="http://i2.chinanews.com/simg/cmshd/2018/05/11/ef772380cfa04bd5b4e6802187f8930f.jpg" style="border:px solid #000000" /></div>
+
+<div style="text-align:center"><img src="http://www.jwview.com/upload_pic/2/201805/10/U281P902T2D2322F39DT20180511094138.jpg" style="border:px solid #000000" /></div>
+
+<div style="text-align:center"><img src="http://i2.chinanews.com/simg/cmshd/2018/05/11/41d4f134e0904cf08e477db3af0d790b.jpg" style="border:px solid #000000" /></div>
+
+<div style="text-align:center"><span style="font-size: 20px; color: #888888;">网友评论截图</span></div>
+
+<div class="pictext" style="text-align: left; text-indent: 2em;"></div>
+
+<p>　　<strong>互联网公司招聘地域歧视非个例</strong></p>
+
+<p>　　这次事件在互联网公司招聘中并非个例，2017年美团招聘时对“黄泛区”地域歧视让人记忆犹新。</p>
+
+<p>　　2017年5月17日，微博博主“猫财经”曝光了一组疑似美团内部的招聘截图。截图显示，一位名为“田源”的人士正在招聘一名产品运营(餐饮会员系统)，但最后的要求条件堪称奇葩。</p>
+
+<p>　　这份疑似美团的招聘显示，招聘要求：1、不要简历丑的 2、不要开大众的 3、不要信中医的 4、原则不要黄泛区和东北人。</p>
+
+<div style="text-align:center"><img src="http://i2.chinanews.com/simg/cmshd/2018/05/11/082c64e131544d6cacbabad320a06a80.jpg" style="border:px solid #000000" /></div>
+
+<div class="pictext" style="text-align: left; text-indent: 2em;"></div>
+
+<p>　　如此奇葩的招聘要求引发热议，美团官方微博回应：“开大众信中医的东北河南混血丑小编表示个人观点不代表公司招聘要求，该员工正被拖出去打！”</p>
+
+<div style="text-align:center"><img src="http://i2.chinanews.com/simg/cmshd/2018/05/11/5cfb85f507ce4c3e924c56a6e07edcec.jpg" style="border:px solid #000000" /></div>
+
+<p style="text-align: center;"><span style="font-size: 20px; color: #888888;">美团回应截图</span></p>
+
+<div class="pictext" style="text-align: left; text-indent: 2em;"></div>
+
+<p>　　随后美团给出正式回复，称已经开除这名叫田源的员工。</p>
+
+<p>　　央视著名主持人白岩松曾在《新闻周刊》中评论美团事件称，尽管此次事件发生在美团的内网，但是内网更不应该如此，并不是内网就会更加认同地域歧视，我们都讨厌地域歧视，首先也要去除我们身边的歧视，遇到这样的人这样的单位就该老鼠过街人人喊打，慢慢环境就变得清洁了。</p>
+
+<p>　　<strong>魅族官微也曾被指地域歧视</strong></p>
+
+<p>　　2017年11月30日上午，河南大象融媒的官微“映象网”在微博上控诉魅族科技有限公司的官微“魅族科技”恶意抹黑河南人，并要求其公开道歉，原因在于魅族科技发起的一条微博上有图片写道：河南，我们真的不偷那啥。且以井盖为图片背景。</p>
+
+<p>　　针对魅族的言论，“映象网”转发道，“对其他省份的玩笑，措辞都不过分，只有针对河南使用了‘偷’，这个极度贬义的词！图片还特意选了一张井盖。以为网友都是傻子？耍什么小聪明？”对魅族科技的不当言论进行控诉。</p>
+
+<p>　　事后，魅族科技除了将涉事微博删除，并未有任何道歉或解释。</p>
+
+<p>　　(中新经纬APP)</p>
+
+<p>　　<strong>关注中新经纬微信公众号(微信搜索“中新经纬”或“jwview”)，看更多精彩财经资讯。</strong></p>
+		</div>
+
+      <p style="text-align:right;padding-right:5px;font-size:1rem;">【编辑：孙丹阳】</p>
+    </article>
+
+<div id="SOHUCS" sid="jw155638"></div>
+
+   
+<style type="text/css">
+/*导航*/ul,li{list-style:none; margin:0; padding:0;}
+#menu{ width:100%;overflow: hidden; position: fixed; left:0;margin-right:-558px; z-index: 999;_position:absolute;_top:auto; padding:0px; display:block;height:70px;}
+#menu ul{background:#d2edfc;}
+.menuTop{top: 0px;}
+.menuBtm{top:0px;top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0))); _margin-top:0px;}
+
+#menu .layerbox{ position:absolute;left:0;top:0;width:100%;height:70px;background:#000;filter:Alpha(Opacity=80);opacity:0.8;}
+#menu .box{margin:0 16px;}
+#menu .leftimg{float:left;padding-top:12px; position:relative;width:70%;}
+#menu .rightimg{float:right;padding-top:21px;position:relative; cursor:pointer;}
+#menu .rightimg a{float:left;}
+#menu .rightimg #closelayer{padding-left:11px;}
+
+</style>
+<script src="http://www.chinanews.com/m/js/jquery.min.js"></script>
+<div style="height:70px;display:none;" id="jianju"></div>
+<div class="menuTop"  id="menu"  style="display:none;">
+<div class="layerbox"></div>
+<div class="box">
+<!--经纬原先测试地址https://dl.chinanews.com/apps/chinanews/other/JW_App/index_AppStore.html http://www.chinanews.com/U412P902T2D1F42DT20160905143920.png -->
+
+      	<a href="http://www.chinanews.com/jingwei/apps/download/index_AppStore.html">
+      <div class="leftimg"><img height="50" src="http://www.chinanews.com/U412P902T2D161F44DT20161031140724.png"></div>
+      </a>
+
+      <div class="rightimg" >
+      <a href="http://www.chinanews.com/jingwei/apps/download/index_AppStore.html"><img height="34" src="http://www.chinanews.com/upload_pic/2/201601/29/idx/2016/0226/U412P902T2D3F40DT20160226102140.png"></a>
+      <a  id="closelayer"><img height="34" src="http://www.chinanews.com/upload_pic/2/201601/29/idx/2016/0226/U412P902T2D3F41DT20160226102140.png"></a></div>
+      </div>
+
+ </div>
+
+ <Script language="javascript" type="text/javascript">
+
+$(function(){
+
+	 var pw_heigth=$(window).height();
+var screenwidth=$(window).width(); //浏览器当前窗口可视区域宽度 
+//var screenwidth=screen.width;
+//var pw_heigth=screen.height;
+
+ Box1=document.getElementById("bodybox");
+ Box1.style.height = pw_heigth + "px";
+
+ $(".menuTop").css('top',(pw_heigth-69)+"px");
+
+	})
+ </Script> 
+
+<Script language="javascript" type="text/javascript">
+
+$(function() {
+
+var isIE = !!window.ActiveXObject;  
+var isIE6 = isIE && !window.XMLHttpRequest;
+function reachBottom() {
+	 var pw_heigth=$(window).height();
+	Box1=document.getElementById("bodybox");
+	Box1=Box1-69;
+        var btmHeight = "Box1";// 这里配置元素距页面底部的距离
+        var scrollTop = 0;
+        var clientHeight = 0;
+        var scrollHeight = 0;
+        if (document.documentElement && document.documentElement.scrollTop) {
+
+            scrollTop = document.documentElement.scrollTop;
+
+        } else if (document.body) {
+            scrollTop = document.body.scrollTop;
+        }
+        if (document.body.clientHeight && document.documentElement.clientHeight) {
+            clientHeight = (document.body.clientHeight < document.documentElement.clientHeight) ? document.body.clientHeight: document.documentElement.clientHeight;
+        } else {
+            clientHeight = (document.body.clientHeight > document.documentElement.clientHeight) ? document.body.clientHeight: document.documentElement.clientHeight;
+        }
+        scrollHeight = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+
+		 //if(scrollTop<=Box1){
+		 //  $("#menu li").removeClass("current");
+		 //  }
+
+  if (scrollTop>=btmHeight) {
+if(isIE6){
+	     document.getElementById("menu").style.top=(scrollTop)+"px";
+}else{
+                document.getElementById("menu").style.top="0px";
+}
+            return true;
+        } else {
+if(isIE6){
+          document.getElementById("menu").style.top=Box1+"px";
+}else{
+           document.getElementById("menu").style.top=(Box1-scrollTop)+"px";
+}
+           return false;
+        }
+    }
+
+	//window.onscroll = function(){}
+
+});
+  </Script>
+
+<script>
+    (function(window,doc){
+        function localParam(search,hash){
+        search = search || window.location.search;
+        hash = hash || window.location.hash;
+        var fn = function(str,reg){
+          if(str){
+            var data = {};
+            str.replace(reg,function( $0, $1, $2, $3 ){
+              data[ $1 ] = $3;
+            });
+            return data;
+          }
+        }
+        return {search: fn(search,new RegExp( "([^?=&]+)(=([^&]*))?", "g" ))||{},hash: fn(hash,new RegExp( "([^#=&]+)(=([^&]*))?", "g" ))||{}};
+      }
+      window.search = localParam().search;
+      var isAndroid = !!navigator.userAgent.match(/android/ig),
+        isIos = !!navigator.userAgent.match(/iphone|ipod/ig),
+        isIpad = !!navigator.userAgent.match(/ipad/ig),
+        isIos9 = !!navigator.userAgent.match(/OS 9/ig),
+        isWeixin = (/MicroMessenger/ig).test(navigator.userAgent),
+        isWeibo = (/Weibo/ig).test(navigator.userAgent),
+        isQQ = (/qq/ig).test(navigator.userAgent),
+        params = localParam().search,
+        url = '';
+        //iframe = document.getElementById('iframe');
+
+      if(isWeixin || isQQ || isWeibo){
+        document.querySelector('#menu').style.display = 'block';
+		document.querySelector('#jianju').style.display = 'block';
+       setTimeout(function(){
+          document.body.scrollTop = 0
+        },200)
+	}else{
+         document.querySelector('#menu').style.display = 'none';
+		 document.querySelector('#jianju').style.display = 'none';
+
+      }
+
+    })(window,document);
+    </script>
+
+</body>
+</html><!--/jingwei/noimg/05-11/155638.shtml-->

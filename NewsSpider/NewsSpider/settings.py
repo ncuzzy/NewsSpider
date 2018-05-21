@@ -112,7 +112,7 @@ DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
 #SCHEDULER_SERIALIZER = "scrapy_redis.picklecompat"
 
 # Don't cleanup redis queues, allows to pause/resume crawls.
-#SCHEDULER_PERSIST = True
+SCHEDULER_PERSIST = True
 
 # Schedule requests using a priority queue. (default)
 #SCHEDULER_QUEUE_CLASS = 'scrapy_redis.queue.PriorityQueue'
@@ -128,6 +128,7 @@ DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
 
 # Store scraped item in redis for post-processing.
 ITEM_PIPELINES = {
+    'NewsSpider.pipelines.NewsspiderPipeline': 200,
     'scrapy_redis.pipelines.RedisPipeline': 300
 }
 
@@ -139,7 +140,7 @@ ITEM_PIPELINES = {
 #REDIS_ITEMS_SERIALIZER = 'json.dumps'
 
 # Specify the host and port to use when connecting to Redis (optional).
-#REDIS_HOST = 'localhost'
+#REDIS_HOST = '107.175.184.250'
 #REDIS_PORT = 6379
 
 # Specify the full Redis URL for connecting (optional).

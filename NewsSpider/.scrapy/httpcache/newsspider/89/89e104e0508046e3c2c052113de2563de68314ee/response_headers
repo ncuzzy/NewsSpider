@@ -1,0 +1,13 @@
+Date: Fri, 18 May 2018 17:19:55 GMT
+Content-Type: text/html; charset=UTF-8
+Server: nginx/1.1.8
+Vary: Accept-Encoding
+X-Powered-By: PHP/5.5.18
+Set-Cookie: ci_session=ff881323db64b4fd1400d7719565518aa5c51a7e; expires=Fri, 18-May-2018 19:19:55 GMT; Max-Age=7200; path=/; HttpOnly
+Set-Cookie: servertime_differ=7970; expires=Sat, 19-May-2018 17:19:55 GMT; Max-Age=86400; path=/
+Set-Cookie: lastest_num=30; expires=Fri, 18-May-2018 17:24:55 GMT; Max-Age=300; path=/
+Expires: Sat, 01 Jan 2000 00:00:01 GMT
+Cache-Control: post-check=0, pre-check=0, max-age=0
+Last-Modified: Fri, 18 May 2018 17:19:55 GMT
+Pragma: no-cache
+Content-Encoding: gzip

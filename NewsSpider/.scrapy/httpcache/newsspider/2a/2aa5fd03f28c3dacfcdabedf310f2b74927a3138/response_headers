@@ -1,0 +1,10 @@
+Server: Tengine
+Content-Type: text/html
+Date: Fri, 18 May 2018 17:18:45 GMT
+Vary: Accept-Encoding
+Via: cache4.l2nu17-1[6,200-0,M], cache24.l2nu17-1[6,0], kunlun6.cn332[27,200-0,M], kunlun10.cn332[27,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2 mlen:-1
+X-Swift-Savetime: Fri, 18 May 2018 17:18:45 GMT
+X-Swift-Cachetime: 0
+Timing-Allow-Origin: *
+Eagleid: 3b2e04a315266639254646429e

@@ -1,0 +1,13 @@
+User-Agent: *
+Allow: /
+Disallow: /*?*
+Disallow: /Public/
+Disallow: /Document/
+Disallow: /a/s/*
+Disallow: /history/rlist
+Disallow: /search?*
+Sitemap: https://www.iyiou.com/site_map_history.xml
+Sitemap: https://www.iyiou.com/site_map_tupu.xml
+Sitemap: https://www.iyiou.com/site_map_v.xml
+Sitemap: https://www.iyiou.com/site_map_s.xml
+Sitemap: https://www.iyiou.com/site_map_intelligence.xml

@@ -6,12 +6,12 @@
 汽车：https://3g.163.com/touch/reconstruct/article/list/BA8DOPCSwangning/10-10.html
 星闻：https://star.3g.163.com/star/hot/articles/10-10.html?callback=getHotList
 军事：https://3g.163.com/touch/reconstruct/article/list/BAI67OGGwangning/10-10.html
-直播: https://data.live.126.net/livechannel/previewlist/2.json?callback=previewlist_2
+!直播: https://data.live.126.net/livechannel/previewlist/2.json?callback=previewlist_2
 视频：https://3g.163.com/touch/nc/api/video/recommend/Video_Recom/10-10.do?callback=getVideoList
 科技：https://3g.163.com/touch/reconstruct/article/list/BA8D4A3Rwangning/10-10.html
 手机：https://3g.163.com/touch/reconstruct/article/list/BAI6I0O5wangning/10-10.html
 数码：https://3g.163.com/touch/reconstruct/article/list/BAI6JOD9wangning/10-10.html
-本地: https://3g.163.com/touch/jsonp/article/local/%E6%B1%9F%E8%A5%BF%E7%9C%81_%E5%8D%97%E6%98%8C%E5%B8%82/10-10.html
+!本地: https://3g.163.com/touch/jsonp/article/local/%E6%B1%9F%E8%A5%BF%E7%9C%81_%E5%8D%97%E6%98%8C%E5%B8%82/10-10.html
 网易号：https://3g.163.com/touch/reconstruct/article/list/BBM50AKDwangning/10-10.html
 段子：https://3g.163.com/touch/jsonp/joke/chanListNews/T1419316284722/2/10-10.html?callback=joke1
 时尚：https://3g.163.com/touch/reconstruct/article/list/BA8F6ICNwangning/10-10.html

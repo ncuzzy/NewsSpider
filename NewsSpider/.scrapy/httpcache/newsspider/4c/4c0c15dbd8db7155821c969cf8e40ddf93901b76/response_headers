@@ -1,0 +1,14 @@
+Server: Tengine
+Content-Type: text/plain
+Date: Mon, 21 May 2018 06:35:43 GMT
+Vary: Accept-Encoding
+Expires: Mon, 21 May 2018 06:36:43 GMT
+Cache-Control: max-age=60
+Set-Cookie: SERVERID=6b8bd1b277c268ebccccb2805e572e84|1526884543|1526884543;Path=/
+Content-Encoding: gzip
+Via: cache25.l2cm10-1[1,200-0,M], cache29.l2cm10-1[3,0], cache2.cn1012[94,200-0,M], cache10.cn1012[96,0]
+X-Cache: MISS TCP_MISS dirn:8:808298267 mlen:-1
+X-Swift-Savetime: Mon, 21 May 2018 06:35:44 GMT
+X-Swift-Cachetime: 59
+Timing-Allow-Origin: *
+Eagleid: 78ceb09e15268845439157543e

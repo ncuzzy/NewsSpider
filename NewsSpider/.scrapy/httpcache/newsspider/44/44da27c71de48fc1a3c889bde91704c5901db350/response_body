@@ -1,0 +1,78 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="user-scalable=no,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="format-detection" content="telephone=no"><title>APP查询征信 小心泄露你的隐私_要闻_数字报_奥一网</title><link href="images/weblogo.png" rel="apple-touch-icon-precomposed"><link href="http://s0.pstatp.com/inapp/TTDefaultCSS.css?ver=20131129" rel="stylesheet" type="text/css"><link type="text/css" rel="stylesheet" href="http://oeimg2.cache.oeeee.com/Public/Css/channel/mobile_jr.css"><script src="http://oeimg2.cache.oeeee.com/Public/dwz/js/jquery-1.7.2.min.js" type="text/javascript"></script><script src="http://oeimg2.cache.oeeee.com/Public/Js/Commin_url.js" type="text/javascript"></script><script src="http://oeimg2.cache.oeeee.com/Public_v2/Js/channel/mobile/log.js" type="text/javascript"></script><script type="text/javascript">//适配跳转 手机跳到电脑
+(function(){
+    var data_time="";
+    var data_id="553321";
+    var data_channel="";
+    if(window.location.href.indexOf('/n/')!=-1 || window.location.href.indexOf('/nis/')!=-1){
+      var data_type='nis';
+      var getreads_data_type='nis';
+      if (navigator.userAgent.toLowerCase().match(/MicroMessenger/i) == "micromessenger") {
+          location.href = '/m.php?s=/m/mshow/ctime/1525881600/type/nis/id/553321/mtype/1/channel/nis'
+      }
+    }else{  
+      var data_type="html";
+      var getreads_data_type='article';
+    }
+  
+    var data_domain='http://www.oeeee.com';
+  
+    var ua=navigator.userAgent.toLowerCase();
+    var data_time=formatDate(new Date(data_time*1000));
+
+    var IsPC=function()  
+    {  
+               var userAgentInfo = navigator.userAgent; 
+              
+               var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");  
+               var flag = true;  
+               for (var v = 0; v < Agents.length; v++) {  
+                   if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }  
+               }  
+               return flag;  
+    }
+    
+    var toPcVertion = function(){
+      window.location.href = data_domain+'/'+data_type+'/'+data_time+'/'+data_id+'.html?from=tt'; //www.oeeee.com/html/201312/25/634519.html
+    }
+    
+    if(false){ toPcVertion();}
+
+    $.getScript(data_domain+'/api/readnum.php?s=/readnum/readnum/id/'+data_id+'/type/'+getreads_data_type+'/show/1',function(data){});
+
+})();
+//时间格式化
+function formatDate(now)
+{     
+	var year=now.getFullYear();     
+ 	var month=now.getMonth()+1;     
+  	var date=now.getDate();
+  
+	month=month.toString().length<2 ? '0'+month : month;
+	date = date.toString().length<2 ? '0'+date : date ;                
+	return year.toString()+month.toString()+'/'+date.toString();    
+}
+$(function () {
+    kcisAnalysis.sendLog({
+        source: 'epaper',
+        docid: 'EP.AA12.20180510553321',
+        kcchannel: 'tt',
+        content: 'article'
+    });
+})
+</script></head><body><div id="TouTiaoBar"><a href="/" id="logo"><img src="http://oeimg2.cache.oeeee.com/Public/Images/channel/mobile/logo_p_2.png" onerror="TouTiao.hideBar()" alt="手机版奥一"/></a></div><div><header><h1 class="title">APP查询征信 小心泄露你的隐私</h1><div class="subtitle"><a id="source">南方都市报</a><time>2018-05-10 00:00</time><a id="toggle_img" onclick="TouTiao.showImage(); return false" href="#" style="display: none;">显示图片</a></div></header><article><p><img src="http://img2.cache.oeeee.com/Nis/201805/10/dcga121003_b_83415b2706.jpg" style="float:none;" title="&nbsp;&nbsp;&nbsp;&nbsp;部分APP简介称直连央行征信，并不靠谱。" border="0" hspace="0" vspace="0" /></p><span class="tushuo" style="display:block;text-align:none">&nbsp;&nbsp;&nbsp;&nbsp;部分APP简介称直连央行征信，并不靠谱。</span><p>南都讯　近来，一些打着“直连央行征信系统，免费出个人信用报告”旗号的第三方APP，引起央行的注意。在央行近期下发的《关于进一步加强征信信息安全管理的通知》里明确提及，严禁未经授权认可的APP接入征信系统。</p><p>央行征信中心官网提醒广大用户注意，未授权任何第三方APP提供个人信用报告。也就是说，市面上这些代查征信APP实际非官方授权认可。不仅如此，用户使用这些APP查询征信记录，很可能被“盗走”个人隐私。</p><p>APP充当中介代查征信</p><p>办一张信用卡，贷款买车买房，过程中都需用到个人征信。个人征信即个人信息报告，相当于个人的经济身份证，记录了个人信用卡、住房贷款、欠税记录等，由中国人民银行征信中心统一管理。</p><p>不少征信APP声称“直连央行征信系统”，这究竟如何实现的？</p><p>5月8日，南都记者在苹果应用商店输入“征信”等关键词，搜索发现可以提供征信服务的APP五花八门，不在少数。多款APP在产品简介上宣传，直连央行征信查询中心，24小时快速免费获取个人信用报告。</p><p>南都记者登录一款名为“查征信”的APP后，当点击“个人信用数据”即跳转到征信登录页面。按平台要求，用户需要依次输入征信账号、密码、验证码，然后进行身份验证，答题或上传银行卡等信息，之后可在24小时内获取报告。</p><p>该平台提供的《征信采集服务协议》显示，本软件对接中国人民银行征信中心个人信用信息服务平台。用户只能查询自己的信用信息，不得要求平台提供他人的信用信息。同时，征信中心不对用户查询信息内容的正确性、适当性、完整性、准确性等作出任何证明和保证。</p><p>另一款名为“信用管家”的APP在《用户协议》里提到，用户可以通过该公司提供的个人信用查询直连插件，直接从中国征信中心或其他征信机构的官网获取、收集、处理、汇集自己的个人信用相关数据服务。在获取到用户原始数据后，平台表示将使用自动归类、自动区分、数据对比等数据解析技术等，将其转化和汇集成可供使用的数据。</p><p>有业内人士对南都记者分析，这些APP实际充当了桥梁的作用。平台以用户输入的账号、验证码和身份个人信息等，向央行征信中心提出查询请求，进而获取征信报告。除此之外，这类APP也可能与一些获得授权的金融机构合作，通过其接口接入央行的征信系统。</p><p>多款征信APP提供贷款功能</p><p>事实上，不管使用哪种技术手段，这些标榜“直连央行”的征信APP，并不靠谱。</p><p>据山西晚报报道，中国人民银行太原中心支行征信管理处工作人员表示，目前个人信用报告的查询端口确实向一些符合相关规定的第三方机构开放。不过可以查询到的个人信用报告较为简单，只显示信用卡违约、个人贷款有无逾期等信息，详细版的个人信用报告会列明个人近年的征信记录，以及个人的贷款情况等。</p><p>不仅内容完整度不一样，有银行工作人员介绍，通过手机APP查到的个人信用报告，并不能作为办理贷款业务的依据，除了可增加个人对自己信用度的了解外，实际并无多大用处。另据南都记者了解，如果频繁查询自己的个人征信或将影响个人信用。</p><p>广州市政协委员，广州互联网金融协会会长方颂对南都记者表示，从用户体验的角度讲，这类征信APP操作简单，可使贷款变得快捷。但用户如果委托第三方平台查询个人征信，可能存在隐私泄露的风险。各种各样征信APP背后的运营主体，可能是助贷机构或者P2P平台，它们是否规范，如何对此进行约束和监管本身是个难题。在这种情况下，由这些主体收集征信记录等个人隐私，实际留下了不小的安全隐患。</p><p>“把征信数据留存在第三方服务器上本身就有信息泄露的危险。”上海琥珀数据科技有限公司创始人李永庆说。</p><p>此外，南都记者注意到，在下载的多款征信APP里，绝大多数均提供办信用卡和贷款功能。比如，在“征信查询”APP的贷款中心罗列了数十个贷款产品。点击一键申请后，立刻跳转到相关贷款产品页面，用户输入手机号码、身份证、信用卡等相关资料，即可获得线上借款。</p><p>这款APP的《用户服务协议》明确写道，可能会与第三方合作向用户提供相关服务，在此情况下，如第三方同意承担与之同等的保护用户隐私的责任，则征信查询有权将相关的信息提供给第三方。</p><p>李永庆告诉南都记者，征信查询类A&nbsp;PP有很强的动力把用户的数据用在导流变现上。此类APP主要靠查征信来获客，有了征信数据就可以针对性地推荐不同的信贷产品。</p><p>央行整治：未授权任何第三方</p><p>早在今年1月，APP代查征信的问题就引起央行注意。当时，央行征信中心发布公告提及，“近期，我们发现部分APP可以链接到征信中心个人信用报告查询网站查询个人信用报告。特别声明，未授权任何第三方应用程序提供个人信用报告查询服务，敬请广大用户注意。”</p><p>目前这一声明，在中国人民银行征信中心官网首页仍可见，并以鲜明的红色字体横幅提示。</p><p>为了加强个人信息保护工作，近日，央行下发的《关于进一步加强征信信息安全管理的通知》，要求运行机构和接入机构要健全征信信息查询管理，严格授权查询机制，未经授权严禁查询征信报告，规范内部人员和国家机关查询办理流程，严禁未经授权认可的APP接入征信系统。</p><p>上述通知提及，运行机构和接入机构应严格遵循相关规定办理用户的创建、停用和启用，根据“最小授权”原则分配各类、各级用户的权限，严格用户权限设置，将用户权限控制在业务需要的最小范围内。</p><p>一旦发生信息泄露事件，根据该通知规定，央行将对此严厉处罚，如果接入机构存在下列情况，其考核评级结果直接定为0分，具体包括：发生涉及征信信息犯罪的案件，相关机构或者人员被依法追究刑事责任；发生征信信息泄露、买卖征信信息等事件，相关人员被依法采取刑事强制措施；发生征信信息泄露、非法查询等违规案件等；未经批准擅自开展征信机构业务的。</p><p>5月8日，南都记者查询发现，目前有多款个人征信查询APP仍在运行，但已有APP暂停了个人征信查询服务。一款名为“征信查询”的APP告知用户，正在对央行个人征信查询功能进行升级。此次升级后，不再支持直接查询央行个人征信，不过失信信息、黑名单记录以及个人信息被泄情况仍支持查询。</p><p>该平台提醒用户可通过电脑登录央行征信中心官网，点击进入“互联网个人信用服务平台”查询个人征信，或者前往本地区各央行分行网点通过柜台和自助机器办理。</p><p>采写：南都记者　李玲</p></article></div><script src="http://s0.pstatp.com/inapp/TTDefaultJS.js" type="text/javascript"></script><!-- Start Alexa Certify Javascript --><script type="text/javascript">_atrk_opts = { atrk_acct:"qlI7j1a4ZP00wT", domain:"oeeee.com",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script><noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=qlI7j1a4ZP00wT" style="display:none" height="1" width="1" alt="" /></noscript><!-- End Alexa Certify Javascript --><!--全站GA统计代码--><script type="text/javascript">  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-12577036-45']);
+  _gaq.push(['_setDomainName', 'oeeee.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><!--全站GA统计代码 END--><!--全站百度统计代码--><script type="text/javascript">var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F967edc8e5c8efb4c5917d2223e9c6d29' type='text/javascript'%3E%3C/script%3E"));
+</script><!--全站百度统计代码 END--></body></html>

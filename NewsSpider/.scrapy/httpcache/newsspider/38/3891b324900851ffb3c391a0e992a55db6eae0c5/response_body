@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>404!页面找不到了！</title>
+<meta name="viewport" content="width=750,target-densityDpi=device-dpi,user-scalable=no">
+	<meta content="telephone=no" name="format-detection" />
+	<meta name="keywords" content="手机网易网" />
+	<meta name="description" content="手机网易网" />
+	<style>
+body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,a,code,em,img,q,small,strong,dd,dl,dt,li,ol,ul,fieldset,form,label,table,tbody,tr,th,td,input{margin:0;padding:0;border:0}
+body{font-size:32px;max-width:750px;margin:0 auto;background:#f6f6f6;font-family:'STHeiti','Microsoft YaHei',Helvetica,Arial,sans-serif}
+a,a:active,a:hover,a:focus,a:visited{text-decoration:none}
+a,img{-webkit-touch-callout:none}
+ol,ul,li{list-style:none}
+p{background-image:url(about:blank);background-color:transparent;word-break:break-all}
+.u_topbar{height:98px;background-color:#f33;position:relative;overflow:hidden}
+.u_topbar .u_logo{background:url(http://img2.cache.netease.com/f2e/wap/tag404/images/logo_2016@2x.png) no-repeat;background-image:-webkit-image-set(url(http://img2.cache.netease.com/f2e/wap/tag404/images/logo_2016@2x.png) 2x,url(http://img2.cache.netease.com/f2e/wap/tag404/images/logo_2016@3x.png) 3x);background-size:contain;background-repeat:no-repeat;width:100px;height:50px;margin:25px;position:absolute;left:50%;margin-left:-50px}
+.u_topbar .u_llogo .icon_email{background:url(http://img2.cache.netease.com/f2e/wap/tag404/images/icon-email@2x.png) no-repeat;background-image:-webkit-image-set(url(http://img2.cache.netease.com/f2e/wap/tag404/images/icon-email@2x.png) 2x,url(http://img2.cache.netease.com/f2e/wap/tag404/images/icon-email@3x.png) 3x);background-size:contain;background-repeat:no-repeat;width:46px;height:36px;margin-top:32px;left:25px;position:absolute}
+.u_topbar .u_rlogo .icon_appdownload{background:url(http://img2.cache.netease.com/f2e/wap/tag404/images/app_download@2x.png) no-repeat;background-image:-webkit-image-set(url(http://img2.cache.netease.com/f2e/wap/tag404/images/app_download@2x.png) 2x,url(http://img2.cache.netease.com/f2e/wap/tag404/images/app_download@3x.png) 3x);background-size:contain;background-repeat:no-repeat;width:46px;height:36px;margin-top:32px;right:25px;position:absolute}
+.errorbody{background:url(http://img2.cache.netease.com/f2e/wap/tag404/images/404-1.png) no-repeat #fff;background-size:80%;background-position:center 120px;position:fixed;height:100%;width:100%;max-width:750px}
+.errorbody .error{text-align:center;color:#f33;position:absolute;font-size:60px;top:600px;width:100%;font-weight:500}
+.errorbody .errorfontInfo{position:absolute;width:100%;text-align:center;top:800px;color:#999;font-size:30px}
+.errorbody .errorfontInfo .jumpto{color:#f33}
+.errorbody .errorfontInfo .countdown{color:#f33;font-size:40px;font-style:normal;margin-right:10px;position:relative;top:1px}
+</style>
+	
+<script src="//img2.cache.netease.com/f2e/wap/common/thirdpartylibs/zepto.1059675.min.js"></script>
+</head>
+<body>
+	<div class="u_topbar">
+		<div class="u_llogo">
+			<a href="https://smart.mail.163.com/?dv=smart&from=3gindex">
+				<div class="icon_email"></div>
+			</a>
+		</div>
+		<div class="u_logo"></div>
+		<div class="u_rlogo">
+			<a href="https://m.163.com/newsapp/applinks.html?s=wap">
+				<div class="icon_appdownload"></div>
+			</a>
+		</div>
+	</div>
+	<div class="errorbody">
+		<p class="error">
+			页面找不到啦
+		</p>
+		<p class="errorfontInfo">
+			<i class="countdown">5</i>秒后，页面将跳转
+			<a href="http://3g.163.com/touch/"><span class="jumpto">手机网易网首页</span></a>
+		</p>
+	</div>
+	<script src="//img2.cache.netease.com/f2e/wap/tag404/js/newap404.S2WVgQTEDRAo.3.js"></script>
+	<!-- 统计代码 -->
+	<!-- START NetEase Devilfish 2006 -->
+<script src="https://analytics.163.com/ntes.js" type="text/javascript"></script>
+<script type="text/javascript">
+_ntes_nacc = "wap";
+window.neteaseTracker();
+neteaseClickStat();
+</script>
+<!-- END NetEase Devilfish 2006 -->
+<!-- START Baidu autopush -->
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<!-- END Baidu autopush -->
+	<!-- 极光点击统计 important -->
+	<script>!function(n){function t(){}function e(){var n=Math.round((+new Date-$)/1e3);return n<0?0:n}function i(n){var t=n.className,e=l(n),i={script:1,style:1,link:1,img:1,hr:1,br:1},a=!0;return i[e]?a=!1:/blank\d/.test(t)&&(a=!1),a}function a(t){A||(m&&window._ntes_sendInfo?(n.each(j,function(n,t){u(t)}),A=!0):j.push(t)),A&&u(t)}function r(n){return n<10?n.toString():n>62?"z":String.fromCharCode(n+(n<36?55:61))}function o(n,t){if(!t)return n;var e=n.length-1,i=n.charCodeAt(e);return i<58?i-=48:i<91?i-=55:i<123&&(i-=61),n.substr(0,e)+r(i+t)}function c(n,t,e){t&&t.setAttribute((e?"_":"")+"jcid",n)}function s(n){if(n){var t=this.getAttribute("href")||"";y++;var i="/ntes_p?"+w+"&_nct="+e()+"&_nah="+escape(t)+"&_nat={id}_"+n;a(i)}}function u(t){if("ywa"==m.substr(0,3)){var e=location.pathname.substr(7).replace(/\/.*/,""),i={money:2,mobile:3,digi:4,ent:5,game:6,tech:7,edu:9,nba:10,news:11,auto:12,photo:13,dy:14,lady:15,war:16,jiankang:17,exclusive:18,travel:21,baby:22,sports:24,idol:25};i[e]&&(m=m.substr(0,3)+(i[e]>9?"":"0")+i[e])}else"ywma1"==m&&n(".article_bot")[0]&&(m="ywma2");_ntes_sendInfo("jc",_ntes_src_addr+t.replace("{id}",m))}function f(n,t,e){for(var i={a:1,area:1},a=n,r=null;n.tagName&&n!=C;){if(i[l(n)]){r=n;break}n=n.parentNode}if(r)for(;n&&n!=t&&!(e=n.getAttribute("jcid"));)n=n.parentNode;for(;!e&&!(e=a.getAttribute("_jcid"));)if(a=a.parentNode,!a||!a.tagName||a==C)return;e&&s.call(r||n,e)}function l(n){return n.tagName.toLowerCase()}function _(n,t,e){"iframe"!=l(n)&&t(n,e)}function d(n){return(n.innerHTML.match(/jcid=".*?"/g)||[]).join("")}function h(n,t){var e,i;v(n).bind("mouseover touchstart",function(){var a=d(n),r=n.innerHTML.replace(/<.*?>/g,"").length;!n.children.length||a==e&&r==i||(t(),e=d(n),i=r)})}function p(n,t){var e=n[0],i=n.level;return e&&i&&b(e,i,t),e}function b(t,e,i){if(n.util.isArray(t))n.each(t,function(n,t){b(t,e,i)});else if("object"==typeof t)if(t.i)t.k=o(t.i.substr(0,e+1),i)+t.i.substr(e+1);else for(var a in t)b(t[a],e,i)}var v=n;n.zepto&&(v=function(){var t,e=[].slice.call(arguments),i=e[0],a=e[1]||document.body,r="string"==typeof i&&">"==i.substr(0,1);r&&(t=a.id,a.id="__cmon__",e[0]="#__cmon__"+i);var o=n.apply(this,e);return r&&(t?a.id=t:a.removeAttribute("id")),o});var m,g,w="_nacc=siteclick&_npurl="+escape(document.URL),y=0,A=!1,j=[],C=document.body,$=window.performance&&window.performance.timing?window.performance.timing.connectStart:+new Date,k=[function(t,e,i){t+=r(i.start||1),i.bind?n(e).bind("click",function(n){s.call(e,t)}):c(t,e,i.all)},function(n,t,e){var i,a=e.start||1,o=e.query||"a";/(.*?)\|(.*)/.test(o)?(i=RegExp.$1,o=RegExp.$2,v(i,t).each(function(t,i){a=e.start||1,v(o,i).each(function(t,i){c(n+r(a++),i,e.all)})})):v(o,t).each(function(t,i){c(n+r(a++),i,e.all)})},function(t,e,a){for(var o=1,s=a.level||1,u=[e],f=0;f<s;f++){var _=[];n.each(u,function(t,e){var a=0;"a"==l(e)||/ntes-nav-select/.test(e.className)||n.each(e.children,function(n,t){i(t)&&(_.push(t),a++)}),a||_.push(e)}),u=_}n.each(u,function(n,e){c(t+r(o++),e,a.all)})},function(n,t,e){var i=v(">form",t);i[0]&&i.bind("submit",function(){s.call(this,n+"1")})},function(n,t,e){var i=v(e.h,t),a=v(e.b,t);if(i&&a){var o=e.step||10,s=2;c(n+"1",t),i.each(function(t,e){c(n+r(s+t*o),e)}),a.each(function(t,e){c(n+r(s+t*o+1),e)})}},function(t,e,a){var o=a.union||"",s={};if(/^[\s\d,]+$/.test(o)){var u=0;n.each(o.split(/\s*,\s*/),function(n,t){if(t=parseInt(t))for(var e=0;e<t;e++)s[u++]=n})}var f=2;c(t+"1",e);var l=parseInt(a.step)||10,_=v(a.h,e);if(_&&d){n.each(_,function(n,e){c(t+r(n*l+f),e)});var d=v(a.b,e);n.each(d,function(e,a){var o=e*l+f+1,u=a.children;if(0==u.length)u=[a];else for(;1==u.length;)u=u[0].children;var _=0;n.each(u,function(n,e){i(e)&&("undefined"!=typeof s[n]&&(_=s[n]),c(t+r(o+_),e),_++)})})}}];t.prototype={init:function(t,i){t&&5==t.length&&(m=t),g||(g=location.href.indexOf("_aCM")>-1||Math.random()<(i||.1),g&&(n("body").bind("click",function(n){f(n.target,C)}),n(function(){function t(){r&&(a("/ntes_u?"+r+"&_nct="+e()+"&_mcn="+y+o),r=0)}var i=n(window),r=w+"&_nch={id}",o="",c="&_msl="+e();i.bind("load",function(){o="&_msl="+e()}),a("/ntes_u?"+r+c),i.bind("beforeunload",t);var s=navigator.userAgent.toLowerCase();!/compatible/.test(s)&&/firefox/.test(s)&&i.bind("unload",t)}),this.retain&&this.area(C,this.retain)))},area:function(n,t,e){for(var i in t){var a=!1,r=t[i];r.level=e||0,/(.*?)=$/.test(i)&&(i=RegExp.$1,a=!0),this.procA(n,i,r,a)}},procA:function(n,t,e,i){var a=this,r=e.level+1;if(i)return void h(n,function(){a.procA(n,t,e)});var o=function(n,t){a.area(n,t,r)},c=0,s=0,u=0;/(.*?)!$/.test(t)&&(t=RegExp.$1,s=1),/(.*?)\*$/.test(t)?(t=RegExp.$1,c=1):/(.*?)\+$/.test(t)&&(t=RegExp.$1,u=1);var f,l=t?v(t,n):[n],d=0,b=l.length;for(f=0;f<b;f++){var m=l[f];if(!s||!m.id){var g=c?e[0]:e[d];if(u&&1==e.length&&(g=p(e,d)),g&&m)if(g.i)for(var w=g.s||1,y=0;y<w;y++)g.j=y,this.zone(l[f+y],g);else _(m,o,g);d++}}},zone:function(n,t){var e=o(t.k||t.i,t.j),i=k[t.f||0],a=t.p||{};n&&i&&(a.dyn?h(n,function(){i(e,n,a)}):_(n,function(n){i(e,n,a)}))},batch:function(n){g?this.area(C,n):this.retain=n}},window._aCM=new t}(window.jQuery||window.Zepto),function(){_aCM.init(window._aCMID||"ywa01"),setTimeout(function(){_aCM.batch({".s_main_nav":[{"":[{"":[{i:"111"}]}]}],".s_sb_news":[{"":[{"":[{i:"211"}]}]}],".s_sb_ent":[{"":[{"":[{i:"311"}]}]}],".s_sb_sports":[{"":[{"":[{i:"411"}]}]}],".s_sb_money":[{"":[{"":[{i:"511"}]}]}],".s_sb_photo":[{"":[{"":[{i:"611"}]}]}],".s_sb_video":[{"":[{"":[{i:"711"}]}]}],".s_sb_lady":[{"":[{"":[{i:"811"}]}]}],".s_sb_mobile":[{"":[{"":[{i:"911"}]}]}],".s_sb_tech":[{"":[{"":[{i:"A11"}]}]}],".s_sb_digi":[{"":[{"":[{i:"B11"}]}]}],".s_sb_edu":[{"":[{"":[{i:"C11"}]}]}],".s_sb_exclusive":[{"":[{"":[{i:"D11"}]}]}],".s_sb_caipiao":[{"":[{"":[{i:"E11"}]}]}],"#login_panel":[{"":[{"":[{i:"F11",f:1}]}]}],".u_topbar":[{">.u_llogo":[{"":[{i:"G11",p:{dyn:1,all:1}}]}],">.u_rlogo":[{"":[{i:"G21",f:1}]}]}],".icon_setting":[{"":[{"":[{i:"H11"}]}]}],".u_topad":[{"":[{"":[{i:"I11"}]}]}],".bar_wrap":[{"":[{"":[{i:"J11",f:2,p:{level:4,dyn:1,all:1}}]}]}],".contents-tablist":[{"":[{"":[{i:"K11",f:1,p:{query:".contents-tablist-wrap|.headslide,.swipe-content,.content-list section,.u_p_items>.item_cell,.rank-list a,.match_scroll_wrap a",dyn:1}}]}]}],".float":[{">a":[{"":[{i:"L11"}]}]}]})},1e3)}();</script>
+</body>
+</html>

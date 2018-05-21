@@ -1,0 +1,3 @@
+# robots.txt for youth.cn
+User-agent: *
+Disallow: /transfer/toutiao/url/3g.youth.cn/*

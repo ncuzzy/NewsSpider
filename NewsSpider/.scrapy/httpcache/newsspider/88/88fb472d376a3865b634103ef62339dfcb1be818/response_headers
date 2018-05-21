@@ -1,0 +1,17 @@
+Date: Fri, 18 May 2018 17:12:39 GMT
+Server: nginx
+Content-Type: text/html; charset=UTF-8
+X-Cache-Ttl: 1h
+Expires: Fri, 18 May 2018 17:17:39 GMT
+Cache-Control: max-age=300
+X-Varnish: 1497616413
+Via: 1.1 varnish
+Via: proxy1.bjzw.163.org
+X-Varnish-Cache: MISS
+X_Cache: from proxy1.bjzw.163.org
+Content-Encoding: gzip
+X-Via: 1.1 fzh49:5 (Cdn Cache Server V2.0), 1.1 dzhdx14:5 (Cdn Cache Server V2.0)
+X-Dscp-Value: 0
+Cdn-User-Ip: 182.108.55.9
+Cdn-Ip: 117.21.205.14
+Cdn-Source: chinanetcenter
