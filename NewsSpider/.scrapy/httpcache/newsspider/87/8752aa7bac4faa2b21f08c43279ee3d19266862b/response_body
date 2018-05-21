@@ -1,7 +1,0 @@
-User-agent: *
-Disallow:/sns/
-Disallow:/wp-content/
-Disallow:/user/
-Disallow:*.js
-Disallow:*.css
-Sitemap: http://www.tmtpost.com/sitemap.xml

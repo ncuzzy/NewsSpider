@@ -1,9 +1,0 @@
-Server: nginx/1.8.0
-Date: Fri, 18 May 2018 17:18:49 GMT
-Content-Type: text/html; charset=UTF-8
-X-Powered-By: PHP/5.6.30
-Set-Cookie: area_id=360100; expires=Sat, 19-May-2018 17:18:49 GMT; Max-Age=86400; path=/; domain=.shiche.com.cn
-Set-Cookie: city_name=%E5%8D%97%E6%98%8C; expires=Sat, 19-May-2018 17:18:49 GMT; Max-Age=86400; path=/; domain=.shiche.com.cn
-Set-Cookie: area_id=360100; expires=Sat, 19-May-2018 17:18:49 GMT; Max-Age=86400; path=/; domain=.shiche.com.cn
-Set-Cookie: city_name=%E5%8D%97%E6%98%8C; expires=Sat, 19-May-2018 17:18:49 GMT; Max-Age=86400; path=/; domain=.shiche.com.cn
-Content-Encoding: gzip
