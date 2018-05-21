@@ -1,2 +1,2 @@
-NewsSpider/.scrapy
-NewsSpider/.vscode
+/NewsSpider/.scrapy/
+/NewsSpider/.vscode/
