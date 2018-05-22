@@ -9,12 +9,28 @@ from scrapy import signals
 import random
 from .useragent import agents
 from scrapy.downloadermiddlewares.useragent import UserAgentMiddleware
+import requests
+import json
 
 class UserAgentmiddleware(UserAgentMiddleware):
 
     def process_request(self, request, spider):
         agent = random.choice(agents)
         request.headers["User-Agent"] = agent
+
+class MyproxiesSpiderMiddleware(object):  
+
+      def __init__(self):  
+        self.proxy=[]
+        r = requests.get('http://107.172.188.221:8000/?types=0&count=10&country=国内')
+        ip_ports = json.loads(r.text)
+        for i in range (0,10):
+            s = "http://"+ip_ports[i][0]+r":"+str(ip_ports[i][1])
+            self.proxy.append(s)
+
+      def process_request(self, request, spider):  
+          my_proxy = random.choice(self.proxy)  
+          request.meta["proxy"]= my_proxy
 
 class NewsspiderSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
@@ -62,3 +78,4 @@ class NewsspiderSpiderMiddleware(object):
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
+

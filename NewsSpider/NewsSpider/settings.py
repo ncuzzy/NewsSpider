@@ -22,7 +22,7 @@ NEWSPIDER_MODULE = 'NewsSpider.spiders'
 ROBOTSTXT_OBEY = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-#CONCURRENT_REQUESTS = 32
+CONCURRENT_REQUESTS = 32
 
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
@@ -33,7 +33,7 @@ ROBOTSTXT_OBEY = True
 #CONCURRENT_REQUESTS_PER_IP = 16
 
 # Disable cookies (enabled by default)
-#COOKIES_ENABLED = False
+COOKIES_ENABLED = False
 
 # Disable Telnet Console (enabled by default)
 #TELNETCONSOLE_ENABLED = False
@@ -52,9 +52,12 @@ ROBOTSTXT_OBEY = True
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    'NewsSpider.middlewares.MyCustomDownloaderMiddleware': 543,
-#}
+DOWNLOADER_MIDDLEWARES = {
+    #'NewsSpider.middlewares.MyCustomDownloaderMiddleware': 543,
+    'NewsSpider.middlewares.UserAgentmiddleware': 543,
+    'NewsSpider.middlewares.MyproxiesSpiderMiddleware': 543
+    
+}
 
 # Enable or disable extensions
 # See http://scrapy.readthedocs.org/en/latest/topics/extensions.html
@@ -95,6 +98,8 @@ MYSQL_USER = 'zzy'
 MYSQL_PASSWORD = '111111'
 MYSQL_DB = 'SpiderDB'
 MYSQL_PORT = '3306'
+
+LOG_FILE="log.txt" #log信息输出到log.txt文件
 
 # Enables scheduling storing requests queue in redis.
 SCHEDULER = "scrapy_redis.scheduler.Scheduler"
