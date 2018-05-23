@@ -18,7 +18,7 @@ url_dic = {'news':'https://3g.163.com/touch/reconstruct/article/list/BBM54PGAwan
 'auto':'https://3g.163.com/touch/reconstruct/article/list/BA8DOPCSwangning/*-20.html',
 'idol':'https://star.3g.163.com/star/hot/articles/*-20.html?callback=getHotList',
 'war':'https://3g.163.com/touch/reconstruct/article/list/BAI67OGGwangning/*-20.html',
-'video':'https://3g.163.com/touch/nc/api/video/recommend/Video_Recom/*-20.do?callback=getVideoList',
+#'video':'https://3g.163.com/touch/nc/api/video/recommend/Video_Recom/*-20.do?callback=getVideoList',
 #'liveshow':'直播',
 'tech':'https://3g.163.com/touch/reconstruct/article/list/BA8D4A3Rwangning/*-20.html',
 'mobile':'https://3g.163.com/touch/reconstruct/article/list/BAI6I0O5wangning/*-20.html',
