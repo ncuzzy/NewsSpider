@@ -92,12 +92,15 @@ DOWNLOADER_MIDDLEWARES = {
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-# MySQL configuration
-MYSQL_HOSTS = '107.175.184.250'
-MYSQL_USER = 'zzy'
-MYSQL_PASSWORD = '111111'
-MYSQL_DB = 'SpiderDB'
-MYSQL_PORT = '3306'
+# 代理IP池地址
+ProxyAddr="http://107.175.184.238:8000/?types=0&count=10&country=国内"
+
+# MongoDB数据库地址
+MongoDB_URL = "107.175.184.238:27017"
+MongoDB_DBName = "News"
+MongoDB_CollectionName = "WangYiNews"
+MongoDB_ReplSetName = "my_repl"
+
 
 LOG_FILE="log.txt" #log信息输出到log.txt文件
 
@@ -150,7 +153,7 @@ ITEM_PIPELINES = {
 
 # Specify the full Redis URL for connecting (optional).
 # If set, this takes precedence over the REDIS_HOST and REDIS_PORT settings.
-REDIS_URL = 'redis://root:111111@107.175.184.250:6379'
+REDIS_URL = 'redis://root:111111@107.175.184.238:6379'
 
 # Custom redis client parameters (i.e.: socket timeout, etc.)
 #REDIS_PARAMS  = {}

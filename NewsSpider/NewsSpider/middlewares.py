@@ -9,6 +9,7 @@ from scrapy import signals
 import random
 from .useragent import agents
 from scrapy.downloadermiddlewares.useragent import UserAgentMiddleware
+from NewsSpider.settings import ProxyAddr
 import requests
 import json
 
@@ -22,7 +23,7 @@ class MyproxiesSpiderMiddleware(object):
 
       def __init__(self):  
         self.proxy=[]
-        r = requests.get('http://107.175.184.250:8000/?types=0&count=10&country=国内')
+        r = requests.get(ProxyAddr)
         ip_ports = json.loads(r.text)
         for i in range (0,10):
             s = "http://"+ip_ports[i][0]+r":"+str(ip_ports[i][1])

@@ -5,6 +5,7 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
+from NewsSpider.settings import MongoDB_URL,MongoDB_DBName,MongoDB_CollectionName,MongoDB_ReplSetName
 from NewsSpider.items import NewsspiderItem
 import pymongo
 import settings
@@ -12,11 +13,11 @@ import settings
 class NewsspiderPipeline(object):
     def __init__(self):
         # 连接复制集
-        self.client = pymongo.MongoClient('107.175.184.250:27017', replicaset='my_repl')
+        self.client = pymongo.MongoClient(MongoDB_URL, replicaset=MongoDB_ReplSetName)
         # 获得数据库
-        self.db = self.client['News']  
+        self.db = self.client[MongoDB_DBName]  
         # 获得集合
-        self.coll = self.db['WangYiNews']  
+        self.coll = self.db[MongoDB_CollectionName]  
 
     def process_item(self, item, spider):
         if (isinstance(item, NewsspiderItem)):
