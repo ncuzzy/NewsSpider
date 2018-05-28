@@ -13,7 +13,7 @@ import settings
 class NewsspiderPipeline(object):
     def __init__(self):
         # 连接复制集
-        self.client = pymongo.MongoClient(MongoDB_URL, replicaset=MongoDB_ReplSetName)
+        self.client = pymongo.MongoClient(MongoDB_URL) #, replicaset=MongoDB_ReplSetName
         # 获得数据库
         self.db = self.client[MongoDB_DBName]  
         # 获得集合

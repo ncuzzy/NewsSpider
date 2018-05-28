@@ -49,7 +49,7 @@ class NewsSpider(RedisSpider):
             for i in range (0,300,20):
                 url_raw = url_dic[key]
                 url_base = url_raw.replace("*",str(i))
-                yield scrapy.Request(url=url_base, callback=self.parse)
+                yield scrapy.Request(url=url_base, callback=self.parse，dont_filter=true)
         
     def parse(self, response):
         json_raw = response.text[9:-1]
