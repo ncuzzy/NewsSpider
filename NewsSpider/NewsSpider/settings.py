@@ -11,13 +11,13 @@
 
 BOT_NAME = 'NewsSpider'
 
-MYEXT_ENABLED=True      # 开启扩展
-IDLE_NUMBER=36           # 配置空闲持续时间单位为 360个 ，一个时间单位为5s
+#MYEXT_ENABLED=True      # 开启扩展
+#IDLE_NUMBER=36           # 配置空闲持续时间单位为 360个 ，一个时间单位为5s
 
 # 在 EXTENSIONS 配置，激活扩展
-'EXTENSIONS'= {
-            'NewsSpider.extensions.RedisSpiderSmartIdleClosedExensions': 500,
-        },
+#EXTENSIONS= {
+#            'NewsSpider.extensions.RedisSpiderSmartIdleClosedExensions': 500,
+#        },
 
 SPIDER_MODULES = ['NewsSpider.spiders']
 NEWSPIDER_MODULE = 'NewsSpider.spiders'
@@ -101,14 +101,16 @@ DOWNLOADER_MIDDLEWARES = {
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 # 代理IP池地址
-ProxyAddr="http://45.77.35.86:8000" #/?types=0&count=10&country=国内
+ProxyAddr="http://202.182.113.43:8000" #/?types=0&count=10&country=国内
 
 # MongoDB数据库地址
-MongoDB_URL = "45.77.35.86:27017"
+MongoDB_URL = "202.182.113.43:27017"
 MongoDB_DBName = "News"
 MongoDB_CollectionName = "WangYiNews"
 MongoDB_ReplSetName = "my_repl"
 
+#Redis数据库地址
+REDIS_URL = 'redis://root:111111@202.182.113.43:6379'
 
 #LOG_FILE="log.txt" #log信息输出到log.txt文件
 
@@ -128,7 +130,7 @@ DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
 #SCHEDULER_SERIALIZER = "scrapy_redis.picklecompat"
 
 # Don't cleanup redis queues, allows to pause/resume crawls.
-SCHEDULER_PERSIST = True
+SCHEDULER_PERSIST = False
 
 # Schedule requests using a priority queue. (default)
 #SCHEDULER_QUEUE_CLASS = 'scrapy_redis.queue.PriorityQueue'
@@ -161,7 +163,7 @@ ITEM_PIPELINES = {
 
 # Specify the full Redis URL for connecting (optional).
 # If set, this takes precedence over the REDIS_HOST and REDIS_PORT settings.
-REDIS_URL = 'redis://root:111111@45.77.35.86:6379'
+
 
 # Custom redis client parameters (i.e.: socket timeout, etc.)
 #REDIS_PARAMS  = {}
