@@ -101,16 +101,16 @@ DOWNLOADER_MIDDLEWARES = {
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 # 代理IP池地址
-ProxyAddr="http://202.182.113.43:8000" #/?types=0&count=10&country=国内
+ProxyAddr="http://45.76.193.35:8000" #/?types=0&count=10&country=国内
 
 # MongoDB数据库地址
-MongoDB_URL = "202.182.113.43:27017"
+MongoDB_URL = "45.76.193.35:27017"
 MongoDB_DBName = "News"
 MongoDB_CollectionName = "WangYiNews"
 MongoDB_ReplSetName = "my_repl"
 
 #Redis数据库地址
-REDIS_URL = 'redis://root:111111@202.182.113.43:6379'
+REDIS_URL = 'redis://root:111111@45.76.193.35:6379'
 
 #LOG_FILE="log.txt" #log信息输出到log.txt文件
 
